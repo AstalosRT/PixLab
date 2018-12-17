@@ -9,11 +9,11 @@
 public class PictureTester
 {
   /** Method to test zeroBlue */
-  public static void testZeroBlue()
+  public static void testKeepOnlyBlue()
   {
     Picture beach = new Picture("beach.jpg");
     beach.explore();
-    beach.zeroBlue();
+    beach.onlyBlue();
     beach.explore();
   }
   
@@ -58,7 +58,7 @@ public class PictureTester
     // uncomment a call here to run a test
     // and comment out the ones you don't want
     // to run
-    testZeroBlue();
+    //testZeroBlue();
     //testKeepOnlyBlue();
     //testKeepOnlyRed();
     //testKeepOnlyGreen();
