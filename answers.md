@@ -21,5 +21,3 @@ a3.
 5. The row index increases form top to bottom.
 6. The column index increases from left to right.
 7. Yes.
-
-a4.
